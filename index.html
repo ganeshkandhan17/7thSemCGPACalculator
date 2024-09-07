@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <p class="text_1">CGPA Calculator</p>
+    <div class="container_1">
+        <div class="inputs">
+            <p class="SubLabel">CURRENT CGPA</p>
+            <input min=0 max=10 type="number"class="cgpainput" placeholder="0.00" name="pcgpa">
+        </div>
+        <div class="inputs">
+            <p class="SubLabel">FEA</p>
+            <select name="grade">
+                <option value="none">Grade</option>
+                <option value="O">O</option>
+                <option value="A+">A+</option>
+                <option value="A">A</option>
+                <option value="B+">B+</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+            </select>
+        </div>
+        <div class="inputs">
+            <p class="SubLabel">DMTS</p>
+            <select name="grade">
+                <option value="none">Grade</option>
+                <option value="O">O</option>
+                <option value="A+">A+</option>
+                <option value="A">A</option>
+                <option value="B+">B+</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+            </select>
+        </div>
+        <div class="inputs">
+            <p class="SubLabel">HMT</p>
+            <select name="grade">
+                <option value="none">Grade</option>
+                <option value="O">O</option>
+                <option value="A+">A+</option>
+                <option value="A">A</option>
+                <option value="B+">B+</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+            </select>
+        </div>
+        <div class="inputs">
+            <p class="SubLabel">PROFESSIONAL ELECTIVE I</p>
+            <select name="grade">
+                <option value="none">Grade</option>
+                <option value="O">O</option>
+                <option value="A+">A+</option>
+                <option value="A">A</option>
+                <option value="B+">B+</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+            </select>
+        </div>
+        <div class="inputs">
+            <p class="SubLabel">PROFESSIONAL ELECTIVE II</p>
+            <select name="grade">
+                <option value="none">Grade</option>
+                <option value="O">O</option>
+                <option value="A+">A+</option>
+                <option value="A">A</option>
+                <option value="B+">B+</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+            </select>
+        </div>
+        <div class="inputs">
+            <p class="SubLabel">OPEN ELECTIVE</p>
+            <select name="grade">
+                <option value="none">Grade</option>
+                <option value="O">O</option>
+                <option value="A+">A+</option>
+                <option value="A">A</option>
+                <option value="B+">B+</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+            </select>
+        </div>
+        <div class="inputs">
+            <p class="SubLabel">ANSYS LAB</p>
+            <select name="grade">
+                <option value="none">Grade</option>
+                <option value="O">O</option>
+                <option value="A+">A+</option>
+                <option value="A">A</option>
+                <option value="B+">B+</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+            </select>
+        </div>
+        <div class="inputs">
+            <p class="SubLabel">HMT LAB</p>
+            <select name="grade">
+                <option value="none">Grade</option>
+                <option value="O">O</option>
+                <option value="A+">A+</option>
+                <option value="A">A</option>
+                <option value="B+">B+</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+            </select>
+        </div>
+    </div>
+    <button class="button" id="calbutton">CALCULATE</button>
+    <div class="overlay active">
+        <div>
+            <p class="text_2">SGPA</p>
+            <p class="sgpavalue">0.00</p>
+        </div>
+        <div>
+            <p class="text_2">CGPA</p>
+            <p class="cgpavalue">0.00</p>
+        </div>
+        <button class="button" id="again">AGAIN</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
