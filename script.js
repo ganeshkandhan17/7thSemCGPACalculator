@@ -25,7 +25,7 @@ document.querySelector("#calbutton").addEventListener("click", (e) => {
     let tqm = credit.get(select[3].value) * 3;
     let pe = credit.get(select[4].value) * 3;
     let oe = credit.get(select[5].value) * 3;
-    let project = credit.get(select[6].value) * 3;
+    let project = credit.get(select[6].value) * 2;
     let mmlab = credit.get(select[7].value) * 2;
     let amlab = credit.get(select[8].value) * 2;
 
